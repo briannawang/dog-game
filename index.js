@@ -226,9 +226,10 @@ class DogBattle extends React.Component {
                         <div className="dogGif"></div>
                         <h1 id="title">DogFight</h1>
                     </div>
-                    {/*
-                    <button onClick={this.handleClickScroll}>scroll</button>
-                    */}
+                    <div className="scrollButtonContainer">
+                        <button className="scrollButton"></button>
+                    </div>
+                    
                 </div>
                 <div className= "roundBox">
                     <h1>{"Lineup:"}</h1>

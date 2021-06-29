@@ -40,6 +40,36 @@ button:hover {
   background-color: black;
 }
 
+.scrollButton {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 0px;
+  border-top: 0px;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.scrollButton:hover {
+  color: black;
+  background-color: white;
+}
+
+.scrollButtonContainer {
+  position: relative;
+  bottom: 40px;
+  transition: bottom ease 0.3s;
+  width: fit-content;
+  height: fit-content;
+  margin: 8px;
+}
+
+.scrollButtonContainer:hover {
+  bottom: 50px;
+}
+
 .introBox {
   height: 100vh;
   display: flex;
